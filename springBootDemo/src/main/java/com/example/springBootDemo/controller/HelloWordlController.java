@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.springBootDemo.domain.User;
 
 /**
- * @description 
+ * @description 第一个controler
  * @author ShuJinJing
  * @time 2018年12月6日 下午5:02:28 
  */
