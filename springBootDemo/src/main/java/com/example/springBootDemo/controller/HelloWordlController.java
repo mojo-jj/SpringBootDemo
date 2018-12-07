@@ -3,6 +3,8 @@ package com.example.springBootDemo.controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.springBootDemo.domain.User;
+
 /**
  * @description 
  * @author ShuJinJing
@@ -10,9 +12,19 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class HelloWordlController {
-	@RequestMapping("hello")
+	@RequestMapping("/hello")
 	public String index() {
+		System.out.println(">>>>>>>>>>:测试");
 		return "Hello World";
 
 	}
+
+	@RequestMapping("/user")
+	public User getUser() {
+		User user = new User();
+		user.setAge(2);
+		user.setName("lily");
+		return user;
+	}
+
 }
