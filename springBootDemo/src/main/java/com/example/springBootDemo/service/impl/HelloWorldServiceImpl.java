@@ -9,4 +9,5 @@ import com.example.springBootDemo.service.HelloWorldService;
  */
 public class HelloWorldServiceImpl implements HelloWorldService {
 
+		return "";
 }
