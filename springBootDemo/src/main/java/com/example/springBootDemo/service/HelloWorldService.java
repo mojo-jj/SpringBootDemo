@@ -1,13 +1,10 @@
 package com.example.springBootDemo.service;
 
-import org.springframework.stereotype.Service;
-
 /**
  * @description 
  * @author ShuJinJing
- * @time 2018年12月7日 下午5:08:47 
+ * @time 2018年12月8日 上午10:02:37 
  */
-@Service
-public class HelloWorldService {
+public interface HelloWorldService {
 
 }
